@@ -1,0 +1,2 @@
+# Requirement Analysis in Software Development
+This repository is dedicated to exploring the requirement analysis phase of software development. It serves as a foundation for documenting, analyzing, and structuring project requirements, particularly focused on a booking management system. The goal is to provide a clear and organized approach to gathering and specifying requirements to ensure successful software development outcomes.
