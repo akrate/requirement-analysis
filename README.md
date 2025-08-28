@@ -29,3 +29,49 @@ In summary, requirement analysis bridges the gap between user expectations and t
 3. **Improves Product Quality and User Satisfaction**  
    Thorough requirement analysis leads to software that meets user needs and business goals more effectively, enhancing usability, reliability, and overall satisfaction.
 
+## Key Activities in Requirement Analysis
+
+- **Requirement Gathering**  
+  This is the initial stage where information is collected from various stakeholders including clients, users, and subject matter experts. Techniques like interviews, questionnaires, and workshops are used to gather raw data about what the system should achieve.
+
+- **Requirement Elicitation**  
+  Beyond just collecting information, elicitation involves actively engaging stakeholders to uncover hidden or implicit requirements. It requires asking the right questions and facilitating discussions to clarify needs and expectations.
+
+- **Requirement Documentation**  
+  Once requirements are gathered and elicited, they must be clearly documented in a structured and organized manner. This includes creating requirement specifications, user stories, or use case documents that serve as reference points for the project.
+
+- **Requirement Analysis and Modeling**  
+  In this phase, the documented requirements are analyzed for feasibility, consistency, and completeness. Modeling techniques such as flowcharts, data models, and use case diagrams are used to visualize and better understand the requirements.
+
+- **Requirement Validation**  
+  The final activity ensures that the documented requirements accurately reflect stakeholder needs and are achievable within project constraints. Validation often involves reviews, inspections, and prototyping to confirm correctness and completeness.
+
+## Types of Requirements
+
+### Functional Requirements
+
+Functional requirements define what the system should do—the specific behaviors or functions the software must perform to meet user needs.
+
+For the booking management system, examples include:
+
+- **Hotel Management:** Allow hotel managers to add, update, and delete hotel information through a dedicated portal.
+- **Search Service:** Enable customers to search for hotels based on location, availability, price, and ratings.
+- **Booking Service:** Facilitate booking of rooms by customers, including availability checking and reservation confirmation.
+- **Payment Integration:** Support secure payment processing via third-party services.
+- **View Booking:** Allow both customers and managers to view current and past booking details.
+- **Notification Service:** Send notifications to customers and managers about booking confirmations, cancellations, and special offers.
+
+### Non-functional Requirements
+
+Non-functional requirements describe how the system performs its functions—attributes like performance, scalability, reliability, and usability.
+
+Examples for the booking management system include:
+
+- **Performance:** The search service must return results within 2 seconds, even during peak traffic.
+- **Scalability:** The system should handle high volumes of user traffic using micro-service architecture and load balancers.
+- **Reliability:** Use master-slave database replication and caching (Redis) to ensure data consistency and availability.
+- **Security:** Secure all payment transactions and protect user data privacy.
+- **Maintainability:** Modular design with separate services (hotel management, booking, view booking) to ease maintenance and updates.
+- **Usability:** Provide intuitive and responsive user portals for customers and hotel managers.
+- **Data Consistency:** Synchronize data across databases using messaging queues and consumers to keep information up to date.
+
