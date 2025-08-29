@@ -123,3 +123,35 @@ A host customer manages listings and tracks bookings for their offerings. Their 
 Below is the use case diagram illustrating the actors and their interactions with the booking management system:
 
 ![Use Case Diagram for Booking System](alx-booking-uc.png)
+
+## Acceptance Criteria
+
+### Importance of Acceptance Criteria in Requirement Analysis
+
+Acceptance Criteria are specific conditions or requirements that a software product must satisfy to be accepted by stakeholders, including clients and end-users. They serve as clear, measurable guidelines that define when a feature or user story is complete and functioning as intended.
+
+In Requirement Analysis, Acceptance Criteria are crucial because they:
+
+- Ensure a common understanding between developers, testers, and stakeholders about what needs to be delivered.
+- Provide a basis for writing test cases and validating features.
+- Help prevent scope creep by clearly defining feature boundaries.
+- Facilitate communication and alignment throughout the development lifecycle.
+- Improve the quality and reliability of the final product by setting objective success measures.
+
+### Example: Acceptance Criteria for Checkout Feature
+
+**Feature:** Checkout process in the booking management system
+
+**Acceptance Criteria:**
+
+1. The user must be able to review booking details (dates, property, price) before confirming payment.
+2. The system must validate payment information (credit card details, expiration date, CVV).
+3. The payment process should support major payment methods (credit/debit cards, PayPal).
+4. Upon successful payment, a confirmation message with booking reference is displayed.
+5. If payment fails, the user receives a clear error message and the option to retry.
+6. The system sends a confirmation email with booking details immediately after successful checkout.
+7. The booking status is updated to "Confirmed" only after successful payment.
+
+---
+
+Adding acceptance criteria like these helps ensure that the checkout feature meets both business requirements and user expectations.
