@@ -75,3 +75,51 @@ Examples for the booking management system include:
 - **Usability:** Provide intuitive and responsive user portals for customers and hotel managers.
 - **Data Consistency:** Synchronize data across databases using messaging queues and consumers to keep information up to date.
 
+## Use Case Diagrams
+
+### What are Use Case Diagrams?
+
+Use Case Diagrams are visual models from the Unified Modeling Language (UML) that illustrate how different users (actors) interact with a system. They capture the system’s functional requirements by showing the various ways users engage with the system to achieve specific goals or tasks (use cases). This helps provide a clear overview of the system’s behavior from the user’s perspective.
+
+### Benefits of Use Case Diagrams
+
+- **Clarify Requirements:** Help stakeholders understand the system’s functionalities and user interactions.
+- **Improve Communication:** Serve as a visual tool to align developers, clients, and team members on system features.
+- **Guide Development:** Identify key user interactions to inform system design and implementation.
+- **Identify Actors and Use Cases:** Ensure all user roles and necessary functions are captured.
+- **Support Testing:** Provide a basis for creating test cases to validate system functionality.
+
+### Actors and Use Cases
+
+#### Guest Customer
+
+A guest customer interacts with the booking system to find and book services. Their key use cases include:
+
+- Register / Login
+- Search Availability
+- Make Booking
+- Cancel Booking
+- View Bookings
+- Make Payment
+- Cancel Payment
+- Receive Confirmation Email
+
+#### Host Customer
+
+A host customer manages listings and tracks bookings for their offerings. Their key use cases include:
+
+- Register / Login
+- Manage Listings
+  - Add New Listing
+  - Edit Listing
+  - Delete Listing
+- View Bookings
+  - Confirmed
+  - Pending
+  - Cancelled
+
+### Use Case Diagram
+
+Below is the use case diagram illustrating the actors and their interactions with the booking management system:
+
+![Use Case Diagram for Booking System](alx-booking-uc.png)
